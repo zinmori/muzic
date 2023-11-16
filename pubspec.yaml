@@ -1,0 +1,53 @@
+name: muzic
+description: A beautiful music player app.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  permission_handler: ^11.0.1
+  flutter_riverpod: ^2.4.5
+  flutter_launcher_icons: ^0.13.1
+  on_audio_query: ^2.9.0
+  just_audio: ^0.9.35
+  audio_video_progress_bar: ^2.0.1
+  just_audio_background: ^0.0.1-beta.10
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  image_path: 'assets/images/zicon.png'
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/z.jpg
+    - assets/images/z1.jpeg
+    - assets/images/z2.jpeg
+    - assets/images/z3.jpeg
+    - assets/images/z4.jpeg
+    - assets/images/zhead.jpeg
+    
